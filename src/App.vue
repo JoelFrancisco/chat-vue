@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { v4 as uuidv4 } from "uuid";
 
 type Message = {
-  id: ReturnType<typeof uuidv4>
+  id: string;
   text: string;
   userType: "client" | "clerk"
 }
@@ -67,6 +67,7 @@ header {
     min-height: 5%;
     border: 1px solid #000;
     padding: 10px;
+    margin-top: 10px;
 }
 
 footer {
