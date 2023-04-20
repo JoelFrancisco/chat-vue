@@ -28,7 +28,7 @@ function addMessage() {
 
 <template>
   <header>
-    <h2 class="title text-4xl">Atendimento on-line</h2>
+    <h2 class="title">Atendimento on-line</h2>
   </header>
 
   <main>
